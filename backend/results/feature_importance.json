@@ -1,0 +1,42 @@
+[
+    {
+        "feature": "cat__ProductPitched_Basic",
+        "importance": 0.4193
+    },
+    {
+        "feature": "cat__ProductPitched_Deluxe",
+        "importance": 0.3048
+    },
+    {
+        "feature": "cat__ProductPitched_Standard",
+        "importance": 0.1128
+    },
+    {
+        "feature": "cat__ProductPitched_King",
+        "importance": 0.0582
+    },
+    {
+        "feature": "num__CustomerID",
+        "importance": 0.0198
+    },
+    {
+        "feature": "cat__Gender_Female",
+        "importance": 0.0107
+    },
+    {
+        "feature": "cat__MaritalStatus_Unmarried",
+        "importance": 0.0076
+    },
+    {
+        "feature": "num__NumberOfTrips",
+        "importance": 0.0068
+    },
+    {
+        "feature": "num__Age",
+        "importance": 0.0062
+    },
+    {
+        "feature": "cat__ProductPitched_Super Deluxe",
+        "importance": 0.0059
+    }
+]

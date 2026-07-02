@@ -1,0 +1,27 @@
+{
+    "target": "MonthlyIncome",
+    "problem_type": "regression",
+    "feature_columns": [
+        "CustomerID",
+        "ProdTaken",
+        "Age",
+        "TypeofContact",
+        "CityTier",
+        "DurationOfPitch",
+        "Occupation",
+        "Gender",
+        "NumberOfPersonVisiting",
+        "NumberOfFollowups",
+        "ProductPitched",
+        "PreferredPropertyStar",
+        "MaritalStatus",
+        "NumberOfTrips",
+        "Passport",
+        "PitchSatisfactionScore",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "Designation"
+    ],
+    "best_model": "best_model.pkl",
+    "preprocessor": "preprocessor.pkl"
+}

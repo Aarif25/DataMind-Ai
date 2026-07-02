@@ -1,0 +1,9 @@
+{
+    "recommended_model": "Linear Regression",
+    "score": 0.8606,
+    "confidence": 70,
+    "reasons": [
+        "Simple regression baseline.",
+        "Easy to interpret coefficients."
+    ]
+}

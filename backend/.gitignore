@@ -1,0 +1,7 @@
+backend/processed/
+backend/uploads/
+backend/trained_models/
+backend/predictions/
+backend/results/
+*.pkl
+*.joblib

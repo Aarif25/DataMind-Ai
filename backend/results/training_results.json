@@ -1,0 +1,80 @@
+{
+    "problem_type": "regression",
+    "target": "MonthlyIncome",
+    "leaderboard": [
+        {
+            "model": "XGBoost",
+            "r2_score": 0.9131,
+            "mae": 889.5631,
+            "mse": 2333030.6011,
+            "rmse": 1527.4261
+        },
+        {
+            "model": "Random Forest",
+            "r2_score": 0.8985,
+            "mae": 896.4026,
+            "mse": 2724933.2645,
+            "rmse": 1650.7372
+        },
+        {
+            "model": "Decision Tree",
+            "r2_score": 0.8675,
+            "mae": 968.7057,
+            "mse": 3559104.2975,
+            "rmse": 1886.5589
+        },
+        {
+            "model": "Linear Regression",
+            "r2_score": 0.8606,
+            "mae": 1253.7786,
+            "mse": 3742867.0593,
+            "rmse": 1934.6491
+        }
+    ],
+    "feature_importance": [
+        {
+            "feature": "cat__ProductPitched_Basic",
+            "importance": 0.4193
+        },
+        {
+            "feature": "cat__ProductPitched_Deluxe",
+            "importance": 0.3048
+        },
+        {
+            "feature": "cat__ProductPitched_Standard",
+            "importance": 0.1128
+        },
+        {
+            "feature": "cat__ProductPitched_King",
+            "importance": 0.0582
+        },
+        {
+            "feature": "num__CustomerID",
+            "importance": 0.0198
+        },
+        {
+            "feature": "cat__Gender_Female",
+            "importance": 0.0107
+        },
+        {
+            "feature": "cat__MaritalStatus_Unmarried",
+            "importance": 0.0076
+        },
+        {
+            "feature": "num__NumberOfTrips",
+            "importance": 0.0068
+        },
+        {
+            "feature": "num__Age",
+            "importance": 0.0062
+        },
+        {
+            "feature": "cat__ProductPitched_Super Deluxe",
+            "importance": 0.0059
+        }
+    ],
+    "best_model": {
+        "name": "XGBoost",
+        "score": 0.9131
+    }
+}
