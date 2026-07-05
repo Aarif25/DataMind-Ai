@@ -2,22 +2,20 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 
 function MainLayout({ children }) {
-    return(
-        <div className ="flex">
-
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-[#2f171b] via-[#3d2025] to-[#2f171b]">
             <Sidebar />
 
-            <div className="flex-1 ml-64">
-
+            <div className="ml-72 flex-1">
                 <Navbar />
-                <main className="p-8 bg-gray-50 min-h-screen">
-                    {children}
+                <main className="px-6 py-6 lg:px-8 lg:py-8">
+                    <div className="mx-auto max-w-7xl space-y-5">
+                        {children}
+                    </div>
                 </main>
             </div>
-
-            
         </div>
-    )
+    );
 }
 
 export default MainLayout

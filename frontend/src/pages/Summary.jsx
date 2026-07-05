@@ -137,7 +137,7 @@ function Summary() {
 
     <h2 className="text-2xl font-semibold mb-5">
 
-        AI Recommendations
+        Recommendations
 
     </h2>
 

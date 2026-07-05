@@ -102,9 +102,9 @@ function Training(){
 
             </h1>
 
-            <div className="bg-white rounded-xl border shadow-sm p-6">
+            <div className="bg-amber-900/30 rounded-xl border border-amber-700/40 shadow-sm p-6">
 
-                <label className="font-semibold">
+                <label className="font-semibold text-amber-100">
 
                     Target Column
 
@@ -112,7 +112,7 @@ function Training(){
 
                 <select
 
-                    className="border rounded-lg w-full mt-3 p-3"
+                    className="border border-amber-700/40 bg-amber-900/20 text-amber-100 rounded-lg w-full mt-3 p-3 focus:border-amber-600 focus:outline-none"
 
                     value={target}
 

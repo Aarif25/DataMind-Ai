@@ -16,7 +16,7 @@ function RecommendationCard({
 
             <h2 className="text-xl font-semibold">
 
-                AI Recommendation
+                Recommendation
 
             </h2>
 
