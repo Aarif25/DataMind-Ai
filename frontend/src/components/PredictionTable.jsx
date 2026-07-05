@@ -14,9 +14,9 @@ function PredictionTable({
 
     return(
 
-        <div className="bg-white rounded-xl border shadow-sm p-6 overflow-auto">
+        <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur overflow-auto">
 
-            <h2 className="text-xl font-semibold mb-6">
+            <h2 className="text-xl font-semibold mb-6 text-[#f8ebd5]">
 
                 Prediction Results
 
@@ -34,7 +34,7 @@ function PredictionTable({
 
                                 <th
                                     key={col}
-                                    className="text-left pb-4"
+                                    className="text-left pb-4 text-[#d7b98a]"
                                 >
 
                                     {col}
@@ -57,7 +57,7 @@ function PredictionTable({
 
                             <tr
                                 key={index}
-                                className="border-t"
+                                className="border-t border-[#a97d53]/20"
                             >
 
                                 {
@@ -66,7 +66,7 @@ function PredictionTable({
 
                                         <td
                                             key={col}
-                                            className="py-3"
+                                            className="py-3 text-[#e8dcc8]"
                                         >
 
                                             {row[col]}

@@ -12,9 +12,9 @@ function RecommendationCard({
 
     return(
 
-        <div className="bg-white rounded-xl border shadow-sm p-6">
+        <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur">
 
-            <h2 className="text-xl font-semibold">
+            <h2 className="text-xl font-semibold text-[#f8ebd5]">
 
                 Recommendation
 
@@ -22,7 +22,7 @@ function RecommendationCard({
 
             <div className="mt-5">
 
-                <p>
+                <p className="text-[#d7b98a]">
 
                     <strong>
 
@@ -32,7 +32,7 @@ function RecommendationCard({
 
                 </p>
 
-                <p>
+                <p className="text-[#e8dcc8]">
 
                     {
 
@@ -46,7 +46,7 @@ function RecommendationCard({
 
             <div className="mt-5">
 
-                <p>
+                <p className="text-[#d7b98a]">
 
                     <strong>
 
@@ -56,7 +56,7 @@ function RecommendationCard({
 
                 </p>
 
-                <p>
+                <p className="text-[#e8dcc8]">
 
                     {
 
@@ -70,7 +70,7 @@ function RecommendationCard({
 
             <div className="mt-5">
 
-                <strong>
+                <strong className="text-[#d7b98a]">
 
                     Reasons
 

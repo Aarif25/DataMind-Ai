@@ -124,15 +124,15 @@ function ModelExport() {
 
             </div>
 
-            <div className="bg-white rounded-xl shadow border p-6">
+            <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur">
 
-                <h2 className="text-2xl font-semibold mb-5">
+                <h2 className="text-2xl font-semibold mb-5 text-[#f8ebd5]">
 
                     Files Included
 
                 </h2>
 
-                <ul className="space-y-3">
+                <ul className="space-y-3 text-[#e8dcc8]">
 
                     <li>✔ best_model.pkl</li>
 
@@ -144,27 +144,27 @@ function ModelExport() {
 
             </div>
 
-            <div className="bg-white rounded-xl shadow border p-6">
+            <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur">
 
-                <h2 className="text-2xl font-semibold mb-5">
+                <h2 className="text-2xl font-semibold mb-5 text-[#f8ebd5]">
 
                     Leaderboard
 
                 </h2>
 
-                <table className="w-full border">
+                <table className="w-full border border-[#a97d53]/20">
 
                     <thead>
 
-                        <tr className="bg-gray-100">
+                        <tr className="bg-[#4d2a2d]">
 
-                            <th className="border p-3">
+                            <th className="text-[#d7b98a] border p-3">
 
                                 Model
 
                             </th>
 
-                            <th className="border p-3">
+                            <th className="text-[#d7b98a] border p-3">
 
                                 Score
 
@@ -180,15 +180,15 @@ function ModelExport() {
 
                             modelInfo.leaderboard.map((model) => (
 
-                                <tr key={model.model}>
+                                <tr key={model.model} className="border-b border-[#a97d53]/20">
 
-                                    <td className="border p-3">
+                                    <td className="border p-3 text-[#e8dcc8]">
 
                                         {model.model}
 
                                     </td>
 
-                                    <td className="border p-3">
+                                    <td className="border p-3 text-[#c7a965]">
 
                                         {
 
@@ -248,20 +248,20 @@ function InfoCard({
 
     return (
 
-        <div className="bg-white rounded-xl border shadow-sm p-6">
+        <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
             <Icon
-                size={30}
-                className="text-blue-600"
+                size={24}
+                className="text-[#c7a965]"
             />
 
-            <p className="text-gray-500 mt-4">
+            <p className="text-sm font-medium text-[#d7b98a] mt-4">
 
                 {title}
 
             </p>
 
-            <h2 className="text-2xl font-bold mt-2">
+            <h2 className="text-2xl font-bold mt-2 text-[#f8ebd5]">
 
                 {value}
 

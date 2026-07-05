@@ -62,25 +62,25 @@ function Report(){
 
             </h1>
 
-            <div className="bg-white rounded-xl border shadow-sm p-8">
+            <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-8 backdrop-blur">
 
-                <FileText
+                <div className="flex items-center gap-3 text-[#c7a965]">
 
-                    size={60}
+                    <div className="rounded-2xl bg-[#4d2a2d] p-2.5 text-[#f2d7a0]">
 
-                    className="text-blue-600"
+                        <FileText size={20} />
 
-                />
+                    </div>
 
-                <h2 className="text-2xl font-semibold mt-6">
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em]">ML Report</p>
 
-                    Machine Learning Report
+                </div>
 
-                </h2>
+                <h1 className="mt-5 text-3xl font-semibold text-[#f8ebd5] sm:text-4xl">Generate Report</h1>
 
-                <p className="text-gray-500 mt-2">
+                <p className="mt-3 max-w-2xl text-base leading-7 text-[#d7b98a]">
 
-                    Generate a professional PDF report containing
+                    Create a professional PDF report containing
 
                     dataset summary,
 

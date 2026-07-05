@@ -51,7 +51,7 @@ function Sidebar() {
                 `flex items-center gap-3 rounded-2xl px-3 py-3 text-sm font-medium transition-all duration-200 ${
                   isActive
                     ? "bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-lg shadow-amber-600/20"
-                    : "text-amber-200 hover:bg-amber-900/40 hover:text-amber-100"
+                    : "text-[#e8dcc8] hover:bg-[#4d2a2d] hover:text-[#f8ebd5]"
                 }`
               }
             >
@@ -62,9 +62,9 @@ function Sidebar() {
         })}
       </nav>
 
-      <div className="mt-auto rounded-3xl border border-amber-700/30 bg-gradient-to-br from-amber-600/20 to-amber-400/10 p-4 text-sm text-amber-200">
-        <p className="font-semibold text-amber-100">Ready for your next step</p>
-        <p className="mt-1 text-amber-300">Import a dataset and start building your workflow.</p>
+      <div className="mt-auto rounded-3xl border border-[#a97d53]/20 bg-[#3c2228]/70 p-4 text-sm text-[#d7b98a]">
+        <p className="font-semibold text-[#f8ebd5]">Ready for your next step</p>
+        <p className="mt-1 text-[#c7a965]">Import a dataset and start building your workflow.</p>
       </div>
     </aside>
   );

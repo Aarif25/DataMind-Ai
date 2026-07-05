@@ -2,9 +2,9 @@ function LeaderboardTable({ leaderboard = [] }) {
 
     return (
 
-        <div className="bg-white rounded-xl shadow-sm border p-6">
+        <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur overflow-auto">
 
-            <h2 className="text-xl font-semibold mb-5">
+            <h2 className="text-xl font-semibold mb-5 text-[#f8ebd5]">
 
                 Leaderboard
 
@@ -14,21 +14,21 @@ function LeaderboardTable({ leaderboard = [] }) {
 
                 <thead>
 
-                    <tr className="border-b">
+                    <tr className="border-b border-[#a97d53]/20">
 
-                        <th className="text-left pb-3">
+                        <th className="text-left pb-3 text-[#d7b98a]">
 
                             Rank
 
                         </th>
 
-                        <th className="text-left">
+                        <th className="text-left text-[#d7b98a]">
 
                             Model
 
                         </th>
 
-                        <th className="text-left">
+                        <th className="text-left text-[#d7b98a]">
 
                             Score
 
@@ -46,23 +46,23 @@ function LeaderboardTable({ leaderboard = [] }) {
 
                             <tr
                                 key={index}
-                                className="border-b"
+                                className="border-b border-[#a97d53]/20"
 
                             >
 
-                                <td className="py-3">
+                                <td className="py-3 text-[#f8ebd5]">
 
                                     {index+1}
 
                                 </td>
 
-                                <td>
+                                <td className="text-[#e8dcc8]">
 
                                     {model.model}
 
                                 </td>
 
-                                <td>
+                                <td className="text-[#c7a965]">
 
                                     {
 

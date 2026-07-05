@@ -10,15 +10,15 @@ function ModelCard({
 
     return(
 
-        <div className="bg-white rounded-xl shadow-sm border p-6">
+        <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
-            <p className="text-gray-500">
+            <p className="text-sm font-medium text-[#d7b98a]">
 
                 {title}
 
             </p>
 
-            <h2 className="text-3xl font-bold mt-3">
+            <h2 className="text-2xl font-bold mt-3 text-[#f8ebd5]">
 
                 {value}
 
@@ -28,7 +28,7 @@ function ModelCard({
 
                 subtitle &&
 
-                <p className="text-gray-500 mt-2">
+                <p className="text-sm text-[#c7a965] mt-2">
 
                     {subtitle}
 

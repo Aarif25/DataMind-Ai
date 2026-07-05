@@ -96,15 +96,15 @@ function Training(){
 
         <div className="space-y-8">
 
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-4xl font-bold text-[#f8ebd5]">
 
                 Model Training
 
             </h1>
 
-            <div className="bg-amber-900/30 rounded-xl border border-amber-700/40 shadow-sm p-6">
+            <div className="bg-[#361c22]/80 rounded-[20px] border border-[#a97d53]/20 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] p-6 backdrop-blur">
 
-                <label className="font-semibold text-amber-100">
+                <label className="font-semibold text-[#f8ebd5]">
 
                     Target Column
 
@@ -112,7 +112,7 @@ function Training(){
 
                 <select
 
-                    className="border border-amber-700/40 bg-amber-900/20 text-amber-100 rounded-lg w-full mt-3 p-3 focus:border-amber-600 focus:outline-none"
+                    className="border border-[#a97d53]/20 bg-[#2f171b]/70 text-[#f8ebd5] rounded-lg w-full mt-3 p-3 focus:border-[#c7a965] focus:outline-none"
 
                     value={target}
 
