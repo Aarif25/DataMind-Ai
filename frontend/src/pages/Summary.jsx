@@ -43,7 +43,7 @@ function Summary() {
 
         <div className="space-y-8">
 
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-4xl font-bold text-[#f8ebd5]">
 
                 Dataset Summary
 
@@ -85,9 +85,9 @@ function Summary() {
 
             <div className="grid grid-cols-2 gap-8">
 
-                <div className="bg-white rounded-xl border shadow-sm p-6">
+                <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
-                    <h2 className="text-xl font-semibold mb-5">
+                    <h2 className="text-lg font-semibold mb-5 text-[#f8ebd5]">
 
                         Numerical Columns
 
@@ -97,7 +97,7 @@ function Summary() {
 
                         <p
                             key={col}
-                            className="mb-2"
+                            className="mb-2 text-[#d7b98a]"
                         >
 
                             {col}
@@ -108,9 +108,9 @@ function Summary() {
 
                 </div>
 
-                <div className="bg-white rounded-xl border shadow-sm p-6">
+                <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
-                    <h2 className="text-xl font-semibold mb-5">
+                    <h2 className="text-lg font-semibold mb-5 text-[#f8ebd5]">
 
                         Categorical Columns
 
@@ -120,7 +120,7 @@ function Summary() {
 
                         <p
                             key={col}
-                            className="mb-2"
+                            className="mb-2 text-[#d7b98a]"
                         >
 
                             {col}
@@ -133,9 +133,9 @@ function Summary() {
 
             </div>
 
-            <div className="bg-white rounded-xl border shadow-sm p-6">
+            <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
-    <h2 className="text-2xl font-semibold mb-5">
+    <h2 className="text-lg font-semibold mb-5 text-[#f8ebd5]">
 
         Recommendations
 
@@ -146,28 +146,28 @@ function Summary() {
 
             <div
                 key={index}
-                className="border rounded-lg p-4 mb-4"
+                className="border border-[#a97d53]/20 rounded-lg p-4 mb-4 bg-[#2f171b]/50"
             >
 
-                <h3 className="font-semibold text-lg">
+                <h3 className="font-semibold text-base text-[#f8ebd5]">
 
                     {item.title}
 
                 </h3>
 
-                <p className="text-sm text-gray-500 mt-1">
+                <p className="text-sm text-[#d7b98a] mt-1">
 
                     Status: {item.status}
 
                 </p>
 
-                <p className="mt-2">
+                <p className="mt-2 text-[#e8dcc8]">
 
                     {item.description}
 
                 </p>
 
-                <p className="mt-3 text-blue-600 font-medium">
+                <p className="mt-3 text-[#c7a965] font-medium">
 
                     💡 {item.recommendation}
 
@@ -198,17 +198,17 @@ function SummaryCard({
 
     return (
 
-        <div className="bg-white rounded-xl border shadow-sm p-5">
+        <div className="rounded-[20px] border border-[#a97d53]/20 bg-[#361c22]/80 p-5 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.45)] backdrop-blur">
 
-            <Icon className="text-blue-600" />
+            <Icon className="text-[#c7a965] w-5 h-5" />
 
-            <p className="text-gray-500 mt-4">
+            <p className="text-[#d7b98a] mt-4 text-sm font-medium">
 
                 {title}
 
             </p>
 
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-2xl font-bold text-[#f8ebd5] mt-2">
 
                 {value}
 
